@@ -28,9 +28,9 @@ class InstallExpo():
     def setup(self):
         # Check the platform and perform install for that platform
         if platform.system() == "Darwin":
-            self.mac_osx_install_route()
+            self.install_route()
 
-    def mac_osx_install_route(self):
+    def install_route(self):
         # changes the permissions of the fle to make it executable
         os.system("chmod +x ./main.py")
         # Add customised directory to the $PATH
