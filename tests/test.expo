@@ -1,0 +1,20 @@
+//(** TESTING EXPO **)
+
+int a = 11;
+str word = "Hello World";
+int num = 5;
+bool value = False;
+
+//(** This is a comment **)
+
+print word;
+
+if (a == 12) {
+    print "YAY";
+} else {
+    print "no.";
+}
+
+repeat (num) {
+    print "Hi";
+}

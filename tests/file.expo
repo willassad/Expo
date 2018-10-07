@@ -1,0 +1,7 @@
+str sentence = "some words are here";
+str word = "here";
+int test = 4;
+
+if (word in sentence) {
+    print "Good";
+}
